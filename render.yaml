@@ -15,3 +15,7 @@ services:
         value: /workspace
       - key: OPENCLAW_GATEWAY_TOKEN
         generateValue: true
+      - key: NODE_OPTIONS
+        value: "--max-old-space-size=450"
+      - key: OPENCLAW_GATEWAY_BIND
+        value: "lan"
